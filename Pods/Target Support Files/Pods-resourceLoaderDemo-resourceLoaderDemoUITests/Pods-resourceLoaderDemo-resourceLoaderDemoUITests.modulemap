@@ -1,0 +1,6 @@
+framework module Pods_resourceLoaderDemo_resourceLoaderDemoUITests {
+  umbrella header "Pods-resourceLoaderDemo-resourceLoaderDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -205,7 +205,7 @@
 				1E89D0B225C693FE00568034 /* Sources */,
 				1E89D0B325C693FE00568034 /* Frameworks */,
 				1E89D0B425C693FE00568034 /* Resources */,
-				55CC034FDB03280751829348 /* [CP] Embed Pods Frameworks */,
+				5BC96CC70470C9A4E83A00FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,7 +243,7 @@
 				1E89D0D325C6940000568034 /* Sources */,
 				1E89D0D425C6940000568034 /* Frameworks */,
 				1E89D0D525C6940000568034 /* Resources */,
-				5F17895F3CC1709725CB25C7 /* [CP] Embed Pods Frameworks */,
+				EA7A819273554804894680BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -347,7 +347,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		55CC034FDB03280751829348 /* [CP] Embed Pods Frameworks */ = {
+		5BC96CC70470C9A4E83A00FB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,23 +362,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo/Pods-resourceLoaderDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F17895F3CC1709725CB25C7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A9EE572FCD6B92791174A22B /* [CP] Check Pods Manifest.lock */ = {
@@ -423,6 +406,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7A819273554804894680BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resourceLoaderDemo-resourceLoaderDemoUITests/Pods-resourceLoaderDemo-resourceLoaderDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
