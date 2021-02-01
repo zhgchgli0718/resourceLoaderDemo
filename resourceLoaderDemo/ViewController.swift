@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     private var avPlayer: AVPlayer?
     
     @IBAction func playButtonClicked(_ sender: Any) {
-        let url = URL(string: "")!
+        let url = URL(string: "http://www.hochmuth.com/mp3/Haydn_Cello_Concerto_D-1.mp3")!
         self.avPlayer = AVPlayer(playerItem: AVPlayerItem(asset: CachingAVURLAsset(url: url)))
         self.avPlayer?.play()
     }
